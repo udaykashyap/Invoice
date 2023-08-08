@@ -23,7 +23,6 @@ function App() {
         <Text fontWeight={"semibold"} className="cinzel-regular">
           100% Hallmark Jeweller Showroom
         </Text>
-
       </Box>
       {/* Header End here */}
 
@@ -48,8 +47,24 @@ function App() {
       {/* Notes */}
 
       {/* Notes end */}
+      <Box
+        border={"1px solid #C1C1C1"}
+        display={"flex"}
+        justifyContent={"space-between"}
+        padding={"1rem"}
+      >
+        <Box>
+          <Text fontWeight={500}>URD Doc No. :</Text>
+          <Text>Govt. approved jeweller Reg. No. : HM/C-5390242212</Text>
+        </Box>
+        <Box>
+          <Text fontWeight={500}>For GAHNA JEWELLERS</Text>
+        </Box>
+      </Box>
       {/* Footer */}
-      <Text textAlign={"right"} fontWeight={500} marginBottom={"3%"}>Authorized Signatory</Text>
+      <Text textAlign={"right"} fontWeight={500} marginBottom={"3%"}>
+        Authorized Signatory
+      </Text>
       <Box borderTop={"3px solid #912008"} textAlign={"center"}>
         <Text>
           <i class="fa-solid fa-location-dot" style={{ color: "#ff0000" }}></i>{" "}
